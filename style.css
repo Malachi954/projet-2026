@@ -122,3 +122,44 @@ aside{
     margin: 50px;
    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 } */
+
+@media (max-width: 768px) {
+  
+    /* main {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .main-choice {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+    .yes-button, .no-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+    } */
+
+    main{
+        width: 90%;
+        height: auto;
+        row-gap: 25px;
+        padding: 10px;
+    }
+
+    main h1{
+        text-align: center;
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    .yes-button:hover{  
+
+    transform: scale(1.1);
+   
+    
+}
+
+}
