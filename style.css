@@ -1,0 +1,124 @@
+body{
+    /* background-color: #FF85C1; */
+    /* background-color: #FF1493; */
+     background-color: #FFB6D9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+   
+}
+
+main{
+   
+
+    /* border: 1px solid #F5F5F5; */
+     border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 50px;
+    /* background-color: #F5F5F5; */
+     background-color: #fff;
+    width: 500px;
+    height: 500px;
+    margin: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.main-head{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main-head h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+.main-head img{
+   width: 300px;
+   object-fit: cover;
+}
+
+.main-choice{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+}
+
+.yes-button,.no-button{
+    
+    border: 1px solid #C9C5C2;
+    background-color: #C9C5C2;
+    border-radius: 50px;
+    padding: 25px;
+    width: 100px;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.yes-button:hover{  
+     background-color: #eb1751;
+      border: 1px solid #eb1751;
+    transform: scale(1.8);
+    color: white;
+    
+}
+
+.no-button:hover{  
+     background-color: #eb1751;
+    transform: scale(0.8);
+    visibility: hidden;
+    color: white;
+    cursor: default ;
+    
+}
+
+main p{
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+   font-style: italic;
+  
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+  position: absolute;
+  font-size: 35px;
+  pointer-events: none;
+}
+
+
+
+/* .green-box{
+    
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(135deg, #00ff00, #00cc00);
+    border: 4px solid #FFA;
+    border-radius: 20px;
+    margin: 50px;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+} */

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F5F5F5;
+  overflow: hidden;
+  position: relative;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background: #FF6B6B;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.heart {
+  position: absolute;
+  font-size: 30px;
+  pointer-events: none;
+}
